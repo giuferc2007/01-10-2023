@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0b7cf;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #b1003b;
+    color: rgb(71, 3, 3);
+    padding: 20px;
+}
+
+.gallery, .timeline {
+    margin: 10px;
+    padding: 10px;
+    background: rgb(22, 22, 22);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(77, 74, 74, 0.1);
+}
+
+.photos img {
+    width: 200px;
+    height: auto;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.2);
+}
+
+.timeline ul {
+    list-style: none;
+    padding: 0;
+}
+
+.timeline li {
+    background: #3d1722;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+footer {
+    margin-top: 20px;
+    padding: 10px;
+    background: #c7054f;
+    color: rgb(8, 0, 0);
+}
